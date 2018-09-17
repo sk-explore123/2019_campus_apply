@@ -1,1 +1,13 @@
+如何解决多线程高并发场景下的Java缓存问题
 
+
+分布式缓存：redis、memcached
+本地（进程内）缓存:ehcache、Guave Cache、Caffeine
+二、缓存淘汰算法
+	LRU算法		least recently used
+	用链表存储缓存信息
+	新来的插入到表头
+	缓存命中需要遍历，然后插入到表头
+	当链表满的时候，将链表尾部的数据丢掉
+
+	
