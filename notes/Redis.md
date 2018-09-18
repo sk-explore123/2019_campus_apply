@@ -154,7 +154,10 @@ n次get/set时间 = n次网络时间 + n次命令时间
 
 
 ### LIST
-
+适用场景  
+	微博大v的粉丝列表
+	key：微博大v
+	value：{粉丝A,粉丝B，...}
 <div align="center"><img src="assets/1536026733016.png" width="450"/></div>
 
 ```shell
