@@ -193,6 +193,8 @@
 | 没有设置 Timeout 参数的 Thread.join() 方法 | 被调用的线程执行完毕                 |
 | LockSupport.park() 方法                    | -                                    |
 
+https://www.cnblogs.com/huangzejun/p/7908898.html
+
 ### 限期等待（Timed Waiting）
 
 无需等待其它线程显式地唤醒，在一定时间之后会被系统自动唤醒。
